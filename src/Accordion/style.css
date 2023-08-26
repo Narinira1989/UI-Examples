@@ -1,0 +1,21 @@
+.active{
+    padding: 10px 30px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.default{
+    padding: 10px 30px;
+    border: 2px solid rgb(14, 14, 104);
+    cursor: pointer;
+}
+
+.content{
+    padding: 50px 30px;
+    border: 2px solid green;
+    margin-top: 1px;
+}
+
+.style{
+    margin: 2px;
+}
