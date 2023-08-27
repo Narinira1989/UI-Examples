@@ -1,11 +1,14 @@
 .active{
-    padding: 10px 30px;
+    padding: 5px 20px;
     border: 2px solid green;
     cursor: pointer;
+    .arrow{
+        transform: rotate(180deg);
+    }
 }
 
 .default{
-    padding: 10px 30px;
+    padding: 5px 20px;
     border: 2px solid rgb(14, 14, 104);
     cursor: pointer;
 }
@@ -17,5 +20,11 @@
 }
 
 .style{
-    margin: 2px;
+    margin: 1px;
 }
+
+.titleStile{
+    display: flex;
+    justify-content: space-between;
+}
+
