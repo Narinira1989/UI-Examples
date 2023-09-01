@@ -1,0 +1,38 @@
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+    }
+
+body{
+    margin: 0;
+}
+
+.light-theme {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.theme-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.theme-button:hover {
+    background-color: #0056b3;
+}
+

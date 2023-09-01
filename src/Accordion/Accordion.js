@@ -1,6 +1,6 @@
 import { AccordionItem } from "./AccordionItem"
 import { list } from "./list"
-import './style.css'
+import './accordion.css'
 
 export const Accordion = () => {
     return (

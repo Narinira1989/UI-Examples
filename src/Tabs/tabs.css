@@ -1,0 +1,26 @@
+.btn-tabs{
+    background-color: rgb(242, 247, 233);
+    padding: 15px 30px;
+    border: none;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.btn-tabs:hover{
+    border-bottom: 2px solid rgb(94, 92, 92);
+    transition-duration: 0.3s;
+}
+
+
+.one{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 50px;
+    background-color:  rgb(242, 247, 233);
+}
+
+.stl{
+    display: flex;
+    justify-content: center;
+}
